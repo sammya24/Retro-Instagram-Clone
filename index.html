@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Instagram Clone">
+    <meta name="author" content="Sammy Hong">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Instagram Clone</title>
+</head>
+
+<body>
+    <header id="main_header">
+        <div id="icon_logo">
+            <a href="#"><img id="logo" src="images/icon.png" alt="insta-icon" title="Icon"></a>
+            <div id="divider1"></div>
+            <div id="divider2"></div>
+            <a href="#"><img id="insta" src="images/logotype.png" alt="insta-logo" title="Logo"></a>
+        </div>
+        <div id="search">
+            <input type="text" placeholder="Search">
+        </div>
+        <div id="header_icons">
+            <a href="#"><img src="images/compass.png" alt="compass" title="Compass"></a>
+            <a href="#"><img src="images/heart.png" alt="heart" title="Heart"></a>
+            <a href="#"><img src="images/user.png" alt="user" title="User"></a>
+        </div>
+    </header>
+    <main>
+        <section id="feed">
+            <section id="posts">
+                <div class="post">
+                    <div class="post_header">
+                        <img src="images/userpic.png" alt="user" title="User">
+                        <p>emiliaclarke</p>
+                    </div>
+                    <div class="post_img">
+                        <img src="images/turkey.jpeg" alt="turkey" title="turkey">
+                    </div>
+                    <div class="post_footer">
+                        <div class="post_footer_header_lefticons">
+                            <img src="images/heart.png" alt="heart" title="Heart">
+                            <img src="images/speech_bubble.png" alt="comment" title="Comment">
+                            <img src="images/upload.png" alt="upload" title="Upload">
+                        </div>
+                        <div class="post_footer_header_righticons">
+                            <img src="images/bookmark.png" alt="bookmark" title="bookmark">
+                        </div>
+                    </div>
+                    <div class="post_text">
+                        <p class="likes">2 likes</p>
+                        <p></p>
+                        <p></p>
+                        <p class="username">emiliaclarke</p>
+                        <p class="caption">i love turkeys</p>
+                        <p class="hashtag">#turkeyslay</p>
+                        <p class="time">3 HOURS AGO</p>
+
+                    </div>
+                    <div class="post_comment">
+                        <input type="text" placeholder="Add a comment...">
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="post_header">
+                        <img src="images/student2.png" alt="user" title="User">
+                        <p>annayang22</p>
+                    </div>
+                    <div class="post_img">
+                        <img src="images/sunset.jpeg" alt="sunset" title="sunset">
+                    </div>
+                    <div class="post_footer">
+                        <div class="post_footer_header_lefticons">
+                            <img src="images/heart.png" alt="heart" title="Heart">
+                            <img src="images/speech_bubble.png" alt="comment" title="Comment">
+                            <img src="images/upload.png" alt="upload" title="Upload">
+                        </div>
+                        <div class="post_footer_header_righticons">
+                            <img src="images/bookmark.png" alt="bookmark" title="bookmark">
+                        </div>
+                    </div>
+                    <div class="post_text">
+                        <p class="likes">2 likes</p>
+                        <p></p>
+                        <p></p>
+                        <p class="username">annayang22</p>
+                        <p class="caption">what a nice day</p>
+                        <p class="hashtag">#pretty</p>
+                        <p class="time">12 HOURS AGO</p>
+
+                    </div>
+                    <div class="post_comment">
+                        <input type="text" placeholder="Add a comment...">
+                    </div>
+                </div>
+                <section id="suggested_followers">
+                    <div id="suggested_followers_header">
+                        <p>Suggestions For You</p>
+                        <p id="see_all">See All</p>
+                    </div>
+                    <div id="suggested_followers_content">
+                        <div class="follower">
+                           <div class="suggested_pic">
+                                <img src="images/user6.jpeg" alt="user" title="User">
+                           </div>
+                           <div class="suggested_username">
+                                <p>Your Highschool Friend</p>
+                           </div>
+                           <div class="suggested_connection">
+                                <p>Followed by annayang22</p>
+                           </div>
+                           <div class="follow_button">
+                                <div class="button-box">
+                                    <p>Follow</p>
+                                </div>
+                           </div>
+                        </div>
+                        <div class="follower">
+                            <div class="suggested_pic">
+                                 <img src="images/user7.png" alt="user" title="User">
+                            </div>
+                            <div class="suggested_username">
+                                 <p>Your College Friend</p>
+                            </div>
+                            <div class="suggested_connection">
+                                 <p>Followed by dojacat</p>
+                            </div>
+                            <div class="follow_button">
+                                 <div class="button-box">
+                                     <p>Follow</p>
+                                 </div>
+                            </div>
+                         </div>
+                         <div class="follower">
+                            <div class="suggested_pic">
+                                 <img src="images/user8.jpeg" alt="user" title="User">
+                            </div>
+                            <div class="suggested_username">
+                                 <p>Your Work Friend</p>
+                                 <img id="next_button" src="images/next_button.png" alt="next" title="Next"> 
+                            </div>
+                            <div class="suggested_connection">
+                                 <p>Followed by scooter</p>
+                            </div>
+                            <div class="follow_button">
+                                 <div class="button-box">
+                                     <p>Follow</p>
+                                 </div>
+                            </div>
+                         </div>
+                    </div>
+                </section>
+            </section>
+            <aside id="stories">
+                <div id="current_user">
+                    <img src="images/student1.png" alt="current_user" title="Current User">
+                    <div class="user_info">
+                        <p class="story_user">krispycreme</p>
+                        <p class="story_time">Sammy H</p>
+                    </div>
+                </div>
+                <div id="stories_divider">
+                </div>
+
+                <div id="stories_header_uwu">
+                    <p id="stories_text">Stories</p>
+                    <p id="watch_all">Watch All</p>
+                </div>
+                
+                <div id="friend_stories">
+                    
+                    <div class="user_story">
+                        <img src="images/student2.png" alt="user" title="User">
+                        <div class="user_info">
+                            <p class="story_user">annayang22</p>
+                            <p class="story_time">3 HOURS AGO</p>
+                        </div>
+                    </div>
+                    <p></p>
+                    <div class="user_story">
+                        <img src="images/user3.png" alt="user" title="User">
+
+                        <div class="user_info">
+                            <p class="story_user">sammya24</p>
+                            <p class="story_time">10 HOURS AGO</p>
+                        </div>
+                    </div>
+                    <p></p>
+                    <div class="user_story">
+                        <img src="images/user4.jpg" alt="user" title="User">
+                        <div class="user_info">
+                            <p class="story_user">xoxogossipgirl</p>
+                            <p class="story_time">1 HOUR AGO</p>
+                        </div>
+                    </div>
+                    <p></p>
+                    <div class="user_story">
+                        <img src="images/userpic.png" alt="user" title="User">
+                        <div class="user_info">
+                            <p class="story_user">krazy8</p>
+                            <p class="story_time">8 HOURS AGO</p>
+                        </div>
+                    </div>
+                    <p></p>
+                    <div class="user_story">
+                        <img src="images/student2.png" alt="user" title="User">
+                        <div class="user_info">
+                            <p class="story_user">blastoise</p>
+                            <p class="story_time">2 HOURS AGO</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="stories-gradient"></div>
+                <div id="credits">
+                    <p>About Us · Support · Press · API · Jobs · Privacy · Terms · Directory · Profiles · Hashtangs · Language</p>
+                    <p id="copyright">℗ 2018 INSTAGRAM</p>
+                </div>
+            </aside>
+        </section>
+    </main>
+</body>
+
+</html>
